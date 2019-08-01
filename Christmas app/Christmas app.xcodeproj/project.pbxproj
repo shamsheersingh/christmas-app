@@ -11,10 +11,23 @@
 		CC01B78B22EF8F2A0067180D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01B78A22EF8F2A0067180D /* ViewController.swift */; };
 		CC01B78E22EF8F2A0067180D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC01B78C22EF8F2A0067180D /* Main.storyboard */; };
 		CC01B79122EF8F2A0067180D /* Christmas_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC01B78F22EF8F2A0067180D /* Christmas_app.xcdatamodeld */; };
-		CC01B79322EF8F2D0067180D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC01B79222EF8F2D0067180D /* Assets.xcassets */; };
 		CC01B79622EF8F2D0067180D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC01B79422EF8F2D0067180D /* LaunchScreen.storyboard */; };
-		CC44CF4022F0E39700EFE7FE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC44CF3F22F0E39700EFE7FE /* TableViewController.swift */; };
+		CC46334D22F2049100135381 /* Sign In Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC46334C22F2049100135381 /* Sign In Page.swift */; };
+		CC46334F22F23A8200135381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC46334E22F23A8200135381 /* Assets.xcassets */; };
+		CC5CF29222F0E38B00CCA9B4 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5CF29122F0E38B00CCA9B4 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		CC6CBE3E22F24CF600B4BD46 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = wrapper.xcmappingmodel;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# mapc\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
 		CC01B78522EF8F2A0067180D /* Christmas app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +35,11 @@
 		CC01B78A22EF8F2A0067180D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC01B78D22EF8F2A0067180D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC01B79022EF8F2A0067180D /* Christmas_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Christmas_app.xcdatamodel; sourceTree = "<group>"; };
-		CC01B79222EF8F2D0067180D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC01B79522EF8F2D0067180D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC01B79722EF8F2D0067180D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC44CF3F22F0E39700EFE7FE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CC46334C22F2049100135381 /* Sign In Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign In Page.swift"; sourceTree = "<group>"; };
+		CC46334E22F23A8200135381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC5CF29122F0E38B00CCA9B4 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +74,10 @@
 			children = (
 				CC01B78822EF8F2A0067180D /* AppDelegate.swift */,
 				CC01B78A22EF8F2A0067180D /* ViewController.swift */,
-				CC44CF3F22F0E39700EFE7FE /* TableViewController.swift */,
+				CC46334C22F2049100135381 /* Sign In Page.swift */,
+				CC5CF29122F0E38B00CCA9B4 /* CheckBox.swift */,
 				CC01B78C22EF8F2A0067180D /* Main.storyboard */,
-				CC01B79222EF8F2D0067180D /* Assets.xcassets */,
+				CC46334E22F23A8200135381 /* Assets.xcassets */,
 				CC01B79422EF8F2D0067180D /* LaunchScreen.storyboard */,
 				CC01B79722EF8F2D0067180D /* Info.plist */,
 				CC01B78F22EF8F2A0067180D /* Christmas_app.xcdatamodeld */,
@@ -82,6 +97,7 @@
 				CC01B78322EF8F2A0067180D /* Resources */,
 			);
 			buildRules = (
+				CC6CBE3E22F24CF600B4BD46 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -129,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC01B79622EF8F2D0067180D /* LaunchScreen.storyboard in Resources */,
-				CC01B79322EF8F2D0067180D /* Assets.xcassets in Resources */,
+				CC46334F22F23A8200135381 /* Assets.xcassets in Resources */,
 				CC01B78E22EF8F2A0067180D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5CF29222F0E38B00CCA9B4 /* CheckBox.swift in Sources */,
+				CC46334D22F2049100135381 /* Sign In Page.swift in Sources */,
 				CC01B78B22EF8F2A0067180D /* ViewController.swift in Sources */,
 				CC01B78922EF8F2A0067180D /* AppDelegate.swift in Sources */,
 				CC01B79122EF8F2A0067180D /* Christmas_app.xcdatamodeld in Sources */,
-				CC44CF4022F0E39700EFE7FE /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +306,6 @@
 		CC01B79B22EF8F2D0067180D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64N7WU86D7;
 				INFOPLIST_FILE = "Christmas app/Info.plist";
@@ -307,7 +323,6 @@
 		CC01B79C22EF8F2D0067180D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 64N7WU86D7;
 				INFOPLIST_FILE = "Christmas app/Info.plist";
