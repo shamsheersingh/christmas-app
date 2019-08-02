@@ -18,30 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oJ3-sI-oPe">
-                                <rect key="frame" x="4" y="52" width="417" height="97"/>
-                                <subviews>
-                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgC-yJ-bzC">
-                                        <rect key="frame" x="20" y="100" width="118" height="35"/>
-=======
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtH-fr-xdK">
-                                <rect key="frame" x="331" y="601" width="52" height="66"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="20"/>
-                                <state key="normal" title="Done">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="c7i-Qy-CkF" kind="show" id="9ic-Gw-wmB"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oJ3-sI-oPe">
                                 <rect key="frame" x="0.0" y="64" width="417" height="97"/>
                                 <subviews>
-                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgC-yJ-bzC">
+                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgC-yJ-bzC">
                                         <rect key="frame" x="20" y="100" width="118" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
->>>>>>> f2d47cddd65690a60a2cab38c6bf36e6238d536f
                                         <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
                                         <state key="normal" title="Full Name:">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -105,14 +86,8 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-<<<<<<< HEAD
-                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFt-8y-Ghx">
-                                        <rect key="frame" x="43" y="31" width="279" height="35"/>
-=======
-                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFt-8y-Ghx">
+                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFt-8y-Ghx">
                                         <rect key="frame" x="53" y="8" width="300" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
->>>>>>> f2d47cddd65690a60a2cab38c6bf36e6238d536f
                                         <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
                                         <state key="normal" title="Sign in to save your lists">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -135,7 +110,6 @@
                                     <constraint firstItem="6lY-iU-M5g" firstAttribute="centerY" secondItem="oJ3-sI-oPe" secondAttribute="centerY" id="pHE-0F-9JW"/>
                                 </constraints>
                             </view>
-<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtH-fr-xdK">
                                 <rect key="frame" x="299" y="601" width="68" height="66"/>
                                 <constraints>
@@ -149,8 +123,6 @@
                                     <segue destination="gbW-63-HsG" kind="show" id="XYD-2V-pLv"/>
                                 </connections>
                             </button>
-=======
->>>>>>> f2d47cddd65690a60a2cab38c6bf36e6238d536f
                         </subviews>
                         <color key="backgroundColor" red="0.38601952789999999" green="0.76213729379999995" blue="0.44240891929999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -1375,7 +1347,4 @@
         <image name="toy3" width="264" height="191"/>
         <image name="toy4" width="360" height="360"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="I4b-hm-KL1"/>
-    </inferredMetricsTieBreakers>
 </document>
