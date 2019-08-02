@@ -14,31 +14,22 @@
         <scene sceneID="xut-TZ-m5a">
             <objects>
                 <viewController title="Sign In Page" id="fRj-8X-F9h" customClass="Sign_In_Page" customModule="Christmas_app" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="1pI-A6-jPh">
+                    <view key="view" contentMode="scaleToFill" id="1pI-A6-jPh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oJ3-sI-oPe">
-                                <rect key="frame" x="4" y="52" width="452" height="97"/>
+                                <rect key="frame" x="4" y="52" width="417" height="97"/>
                                 <subviews>
-                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFt-8y-Ghx">
-                                        <rect key="frame" x="64" y="20" width="300" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
-                                        <state key="normal" title="Sign in to save your lists">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgC-yJ-bzC">
-                                        <rect key="frame" x="20" y="100" width="118" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgC-yJ-bzC">
+                                        <rect key="frame" x="20" y="100" width="118" height="35"/>
                                         <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
                                         <state key="normal" title="Full Name:">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C2E-c5-3vG">
-                                        <rect key="frame" x="151" y="102" width="235" height="30"/>
+                                        <rect key="frame" x="146" y="102" width="212" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -53,72 +44,91 @@
                                         </state>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sp5-x6-U8b">
-                                        <rect key="frame" x="151" y="146" width="235" height="30"/>
+                                        <rect key="frame" x="146" y="146" width="212" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eb6-ye-lc6">
-                                        <rect key="frame" x="21" y="189" width="152" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
+                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eb6-ye-lc6">
+                                        <rect key="frame" x="0.0" y="189" width="159" height="35"/>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="22"/>
                                         <state key="normal" title="Private Mode">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6lY-iU-M5g">
-                                        <rect key="frame" x="182" y="191" width="51" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6lY-iU-M5g">
+                                        <rect key="frame" x="158" y="191" width="51" height="31"/>
                                     </switch>
                                     <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoS-LD-pOE">
-                                        <rect key="frame" x="245" y="189" width="141" height="35"/>
+                                        <rect key="frame" x="188" y="189" width="198" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
                                         <state key="normal" title="Public Mode">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJV-1X-7Ou" customClass="CheckBox" customModule="Christmas_app" customModuleProvider="target">
-                                        <rect key="frame" x="188" y="247" width="30" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJV-1X-7Ou" customClass="CheckBox" customModule="Christmas_app" customModuleProvider="target">
+                                        <rect key="frame" x="167.5" y="247" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="cLn-H2-tdL"/>
+                                            <constraint firstAttribute="height" constant="30" id="oxz-Kz-Zg4"/>
+                                        </constraints>
                                         <state key="normal" image="empty_box"/>
                                         <connections>
                                             <action selector="recommendationCheckBox:" destination="fRj-8X-F9h" eventType="touchUpInside" id="o5H-AU-rgG"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEE-h0-sb8">
-                                        <rect key="frame" x="206" y="245" width="218" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="19"/>
+                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CEE-h0-sb8">
+                                        <rect key="frame" x="153" y="245" width="264" height="35"/>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
                                         <state key="normal" title="Recommendations">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFt-8y-Ghx">
+                                        <rect key="frame" x="43" y="31" width="279" height="35"/>
+                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="23"/>
+                                        <state key="normal" title="Sign in to save your lists">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="CEE-h0-sb8" secondAttribute="bottom" constant="-183" id="0v9-mY-T7y"/>
+                                    <constraint firstItem="CEE-h0-sb8" firstAttribute="top" secondItem="eb6-ye-lc6" secondAttribute="bottom" constant="21" id="4bu-GE-hQB"/>
+                                    <constraint firstItem="kgC-yJ-bzC" firstAttribute="top" secondItem="dFt-8y-Ghx" secondAttribute="bottom" constant="34" id="JkI-gC-pyc"/>
+                                    <constraint firstItem="dFt-8y-Ghx" firstAttribute="leading" secondItem="oJ3-sI-oPe" secondAttribute="leading" constant="43" id="M7E-G1-lAx"/>
+                                    <constraint firstItem="CEE-h0-sb8" firstAttribute="leading" secondItem="oJ3-sI-oPe" secondAttribute="leading" constant="153" id="MmC-l8-ylE"/>
+                                    <constraint firstItem="TJV-1X-7Ou" firstAttribute="centerX" secondItem="oJ3-sI-oPe" secondAttribute="centerX" id="O0A-Fl-VfU"/>
+                                    <constraint firstItem="dFt-8y-Ghx" firstAttribute="top" secondItem="oJ3-sI-oPe" secondAttribute="top" constant="31" id="aM9-2t-hKY"/>
+                                    <constraint firstItem="6lY-iU-M5g" firstAttribute="centerX" secondItem="oJ3-sI-oPe" secondAttribute="centerX" id="alz-PG-ung"/>
+                                    <constraint firstAttribute="trailing" secondItem="CEE-h0-sb8" secondAttribute="trailing" id="bH4-md-WEo"/>
+                                    <constraint firstAttribute="trailing" secondItem="dFt-8y-Ghx" secondAttribute="trailing" constant="43" id="dpU-oX-Wbu"/>
+                                    <constraint firstItem="TJV-1X-7Ou" firstAttribute="centerY" secondItem="oJ3-sI-oPe" secondAttribute="centerY" id="l4x-jr-xxt"/>
+                                    <constraint firstItem="6lY-iU-M5g" firstAttribute="centerY" secondItem="oJ3-sI-oPe" secondAttribute="centerY" id="pHE-0F-9JW"/>
+                                </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtH-fr-xdK">
-                                <rect key="frame" x="331" y="601" width="52" height="66"/>
+                                <rect key="frame" x="299" y="601" width="68" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="vO7-oh-EG0"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="20"/>
                                 <state key="normal" title="Done">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gbW-63-HsG" kind="show" id="XYD-2V-pLv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.38601952789999999" green="0.76213729379999995" blue="0.44240891929999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="MtH-fr-xdK" firstAttribute="leading" secondItem="8H0-hf-uP3" secondAttribute="leading" constant="331" id="0jU-nX-W1e"/>
-                            <constraint firstItem="MtH-fr-xdK" firstAttribute="top" secondItem="oJ3-sI-oPe" secondAttribute="bottom" constant="452" id="8Kg-Bc-zcW"/>
-                            <constraint firstItem="MtH-fr-xdK" firstAttribute="leading" secondItem="8H0-hf-uP3" secondAttribute="leading" constant="331" id="NDP-Mb-cqF"/>
-                            <constraint firstItem="MtH-fr-xdK" firstAttribute="bottom" secondItem="1pI-A6-jPh" secondAttribute="bottomMargin" id="V5c-2e-Zem"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="MtH-fr-xdK" secondAttribute="trailing" constant="11" id="dtw-IO-afC"/>
-                            <constraint firstItem="oJ3-sI-oPe" firstAttribute="top" secondItem="8H0-hf-uP3" secondAttribute="top" constant="32" id="gm7-96-iep"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oJ3-sI-oPe" secondAttribute="trailing" constant="-62" id="jwz-Oi-APE"/>
-                            <constraint firstAttribute="bottom" secondItem="oJ3-sI-oPe" secondAttribute="bottom" constant="518" id="kDO-R1-Qog"/>
-                            <constraint firstItem="8H0-hf-uP3" firstAttribute="trailing" secondItem="MtH-fr-xdK" secondAttribute="trailing" constant="177" id="kVH-8m-LRq"/>
-                            <constraint firstItem="MtH-fr-xdK" firstAttribute="bottom" secondItem="8H0-hf-uP3" secondAttribute="bottom" id="umH-NP-H2u"/>
-                            <constraint firstItem="oJ3-sI-oPe" firstAttribute="leading" secondItem="8H0-hf-uP3" secondAttribute="leading" constant="4" id="zOP-mi-OFP"/>
+                            <constraint firstItem="MtH-fr-xdK" firstAttribute="bottom" secondItem="8H0-hf-uP3" secondAttribute="bottom" id="44e-TB-lfy"/>
+                            <constraint firstItem="MtH-fr-xdK" firstAttribute="leading" secondItem="8H0-hf-uP3" secondAttribute="leading" constant="299" id="iDs-td-Bug"/>
+                            <constraint firstItem="8H0-hf-uP3" firstAttribute="trailing" secondItem="MtH-fr-xdK" secondAttribute="trailing" constant="8" id="nPB-JW-CHm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8H0-hf-uP3"/>
                     </view>
@@ -130,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2E3-dA-wdx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1844" y="-606"/>
+            <point key="canvasLocation" x="1844" y="-606.74662668665667"/>
         </scene>
         <!--Main Screen-->
         <scene sceneID="u43-L5-cGf">
@@ -141,7 +151,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="santa bag 1" translatesAutoresizingMaskIntoConstraints="NO" id="t72-JS-FQE">
-                                <rect key="frame" x="24" y="134" width="366" height="629"/>
+                                <rect key="frame" x="10" y="-20" width="355" height="620"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" alpha="0.94999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYF-qI-Jet">
@@ -151,8 +161,16 @@
                                 <state key="normal" title="Get Started">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1l-ph-ye3">
+                                <rect key="frame" x="98" y="535" width="179" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="31"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
-                                    <segue destination="fRj-8X-F9h" kind="show" id="Xvw-Me-yPd"/>
+                                    <segue destination="fRj-8X-F9h" kind="show" id="Wfh-Lx-7CO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -162,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xyg-PU-ftH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1159" y="-607"/>
+            <point key="canvasLocation" x="1157.5999999999999" y="-607.64617691154433"/>
         </scene>
         <!--Art-->
         <scene sceneID="aM5-5f-CeP">
